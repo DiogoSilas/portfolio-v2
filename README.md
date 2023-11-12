@@ -3,7 +3,7 @@
   Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium amet illum error enim voluptas suscipit beatae, facere fugit similique aliquam quae eum, provident, earum culpa maxime eos vero qui consequatur? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus amet, velit eligendi in nesciunt porro enim! Aperiam, eius facere, nobis possimus inventore delectus, doloremque qui aspernatur id nam neque nemo!
 <p>
 
-<a href="#">
+<a href="https://diogosilas.github.io/portfolio-v2/" target="_blanck">
   <img src="./src/videos/#" alt="Portfólio">
 </a>
 
