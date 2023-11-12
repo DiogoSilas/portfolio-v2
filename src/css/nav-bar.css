@@ -3,15 +3,14 @@
 }
 
 .main-section > .nav-bar div {
-    border: solid #ffe7c9 2px;
-    background-color: #fbfbfb23;
+    background-color: rgb(253, 207, 253);  
+    border: solid #ffe7c9 2px;  
     border-radius: 0px 0px 15px 15px;
 }
 
 .main-section > .nav-bar ul {
     display: flex;
     flex-flow: column wrap;
-    height: 100%;
     justify-content: flex-start;
     align-items: center;
 }

@@ -6,11 +6,9 @@
         "nav-bar nav-bar nav-bar"
         "main main aside"
         "footer footer footer";
-        grid-template-rows: 50px minmax(50px, 1fr) 100vh minmax(50px, 1fr);
+        grid-template-rows: 50px minmax(50px, 1fr) auto-fit minmax(50px, 1fr);
         grid-template-columns: repeat(2, 1fr) 250px;
         gap: 10px 10px;
-        background: #ffe7c9 url(../images/bg-titan-atlas.jpg) no-repeat center;
-        background-size: cover;
     }
 }
 @media  screen and (max-width: 964px) {
@@ -22,10 +20,16 @@
         "main main"
         "aside aside"
         "footer footer";
-        grid-template-rows: 50px minmax(50px, 1fr) 100vh 1fr 1fr;
+        grid-template-rows: 50px auto-fill 100vh auto-fit 1fr;
         grid-template-columns: 1fr 1fr;
         gap: 10px 10px;
-        background: #ffe7c9 url(../images/bg-titan-atlas.jpg) no-repeat center;
-        background-size: cover;
+    }
+    .main-section > .aside .video-youtube {
+        float: left;
+        margin: 15px 20px;
+    }
+    .main-section > .aside p {
+        text-align: justify;
+        padding: 15px 20px;
     }
 }
