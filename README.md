@@ -1,6 +1,12 @@
 <h1 align="center">Portfólio Diogo Silas</h1>
 <p align="justify">
-  Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium amet illum error enim voluptas suscipit beatae, facere fugit similique aliquam quae eum, provident, earum culpa maxime eos vero qui consequatur? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus amet, velit eligendi in nesciunt porro enim! Aperiam, eius facere, nobis possimus inventore delectus, doloremque qui aspernatur id nam neque nemo!
+No cabeçalho, apresento um logotipo e um menu hambúrguer para garantir responsividade. A primeira seção exibe uma imagem minha, acompanhada de habilidades técnicas e breves resumos sobre tecnologia.
+<p>
+<p align="justify">
+Em seguida, compartilho minha visão sobre o futuro da tecnologia, fornecendo links para meu GitHub, LinkedIn e Instagram, onde mantenho uma presença ativa, além de acesso direto ao meu currículo. 
+<p>
+<p align="justify">
+A terceira seção destaca meus projetos na área de tecnologia e, por fim, a seção de contatos fornece informações adicionais, incluindo meu e-mail para facilitar a comunicação.
 <p>
 
 <a href="https://diogosilas.github.io/portfolio-v2/" target="_blanck">
@@ -22,5 +28,5 @@
 ## Como Utilizar?
 
 <p>
-  Simples, basta clicar no item que lhe interessa, e será redirecionado
+  Interagindo com a página.
 </p>
