@@ -1,0 +1,31 @@
+@media  screen and (max-width: 1230px) {
+    .main-section {
+        display: grid;
+        grid:
+        "header header header"
+        "nav-bar nav-bar nav-bar"
+        "main main aside"
+        "footer footer footer";
+        grid-template-rows: 50px minmax(50px, 1fr) 100vh minmax(50px, 1fr);
+        grid-template-columns: repeat(2, 1fr) 250px;
+        gap: 10px 10px;
+        background: #ffe7c9 url(../images/bg-titan-atlas.jpg) no-repeat center;
+        background-size: cover;
+    }
+}
+@media  screen and (max-width: 964px) {
+    .main-section {
+        display: grid;
+        grid:
+        "header header"
+        "nav-bar nav-bar"
+        "main main"
+        "aside aside"
+        "footer footer";
+        grid-template-rows: 50px minmax(50px, 1fr) 100vh 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px 10px;
+        background: #ffe7c9 url(../images/bg-titan-atlas.jpg) no-repeat center;
+        background-size: cover;
+    }
+}

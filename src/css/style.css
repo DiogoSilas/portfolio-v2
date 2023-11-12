@@ -1,15 +1,17 @@
 .main-section {
     display: grid;
     grid:
-    "header header header" 50px
-    "nav-bar main aside" 1fr
-    ". main ." 100vh
-    "footer footer footer"
-    /400px 1fr 200px;
+    "header header header"
+    "nav-bar main aside"
+    ". main ."
+    "footer footer footer";
+    grid-template-rows: 50px 1fr 100vh minmax(50px, 1fr);
+    grid-template-columns: 250px minmax(700px, 1fr) 250px;
     gap: 10px 10px;
     background: #ffe7c9 url(../images/bg-titan-atlas.jpg) no-repeat center;
     background-size: cover;
 }
+
 .main-section > .header {
     background-color: #fbfbfb6b;
     grid-area: header;
@@ -26,8 +28,8 @@
     grid-area: main;
 }
 .main-section > .main img {
-    width: 350px;
-    height: 350px;
+    width: 280px;
+    height: 280px;
 }
 .main-section > .aside {
     background-color: #00ffff2e;

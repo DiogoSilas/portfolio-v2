@@ -25,3 +25,14 @@
     background-color: #a52a2a;
     border-radius: 10px;
 }
+
+@media  screen and (max-width: 1230px) {
+    .main-section > .nav-bar {
+        margin: 0px 10px;
+    }
+    .main-section > .nav-bar ul {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+}
