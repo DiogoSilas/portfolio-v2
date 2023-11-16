@@ -3,7 +3,7 @@
 }
 
 .main-section > .nav-bar div {
-    background-color: rgb(253, 207, 253);  
+    background-color: rgba(255, 242, 255, 0.548);  
     border: solid #ffe7c9 2px;  
     border-radius: 0px 0px 15px 15px;
 }
@@ -33,5 +33,11 @@
         display: flex;
         flex-flow: row wrap;
         justify-content: center;
+    }
+}
+
+@media  screen and (max-width: 767px) {
+    .main-section > .nav-bar {
+        display: none;
     }
 }

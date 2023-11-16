@@ -1,17 +1,7 @@
-.main-section {
-    display: grid;
-    grid:
-    "header header header"
-    "nav-bar main aside"
-    ". main ."
-    "footer footer footer";
-    grid-template-rows: 50px 1fr 100vh auto-fit;
-    grid-template-columns: 250px minmax(700px, 1fr) 250px;
-    gap: 10px 10px;
-}
 
+/*-----------------------------------------------------------------------*/
 .main-section > .header {
-    background-color: rgb(234, 188, 188);
+    background-color: rgba(255, 255, 255, 0.814);
     grid-area: header;
     display: flex;
     justify-content: center;
@@ -20,11 +10,11 @@
     height: 50px;
 }
 .main-section > .nav-bar {
-    background-color: rgb(158, 69, 158);
+    /* background-color: rgb(158, 69, 158); */
     grid-area: nav-bar;
 }
 .main-section > .main {
-    background-color: #fac3fa;
+    /* background-color: #fac3fa; */
     grid-area: main;
 }
 .main-section > .main img {
@@ -32,17 +22,27 @@
     height: 280px;
 }
 .main-section > .aside {
-    background-color: #caf6f6;
+    /* background-color: #caf6f6; */
     grid-area: aside;
 }
-.main-section > .aside .video-youtube {
+
+.main-section > .aside h3 {
     text-align: center;
-    margin: 15px 10px;
 }
-.main-section > .aside p {
+
+.main-section > .aside figure {
+    width: 200px;
+    margin: auto;
+    padding: 15px;
+    text-align: center;
+}
+
+.main-section > .aside figcaption {
     text-align: justify;
-    padding: 10px;
+    padding: 5px;
 }
+
+
 .main-section > .footer {
     background-color: #ffe5c4;
     grid-area: footer;

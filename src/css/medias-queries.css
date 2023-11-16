@@ -1,35 +1,48 @@
+.main-section {
+    display: grid;
+    grid:
+    "header header header" 50px
+    "nav-bar main aside" 1fr
+    ". main ." auto
+    "footer footer footer" auto;
+    grid-template-columns: 250px minmax(700px, 1fr) 250px;
+    gap: 10px 10px;
+
+    background: #ddd url(../images/bg-white-atlas.png) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
 @media  screen and (max-width: 1230px) {
     .main-section {
         display: grid;
         grid:
-        "header header header"
-        "nav-bar nav-bar nav-bar"
-        "main main aside"
-        "footer footer footer";
-        grid-template-rows: 50px minmax(50px, 1fr) auto-fit minmax(50px, 1fr);
-        grid-template-columns: repeat(2, 1fr) 250px;
+        "header header" 50px
+        "nav-bar nav-bar" auto
+        "main aside" 1fr
+        "footer footer" auto;
+        grid-template-columns: 1fr 250px;
         gap: 10px 10px;
     }
 }
-@media  screen and (max-width: 964px) {
+@media  screen and (max-width: 900px) {
     .main-section {
         display: grid;
         grid:
-        "header header"
-        "nav-bar nav-bar"
-        "main main"
-        "aside aside"
-        "footer footer";
-        grid-template-rows: 50px auto-fill 100vh auto-fit 1fr;
-        grid-template-columns: 1fr 1fr;
+        "header"
+        "nav-bar"
+        "main"
+        "aside"
+        "footer";
+        grid-template-rows: 50px auto auto auto 1fr;
+        grid-template-columns: 100vw;
         gap: 10px 10px;
     }
-    .main-section > .aside .video-youtube {
-        float: left;
-        margin: 15px 20px;
-    }
-    .main-section > .aside p {
-        text-align: justify;
-        padding: 15px 20px;
+    .main-section > .aside section {
+        display: flex;
+        flex-flow: row wrap;
     }
 }
+
+
