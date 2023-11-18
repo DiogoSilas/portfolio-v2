@@ -17,27 +17,31 @@
     .main-section {
         display: grid;
         grid:
-        "header" 50px
-        "nav-bar" auto
-        "main" auto
-        "aside" auto
-        "footer" auto;
+        "header"
+        "nav-bar"
+        "main"
+        "aside"
+        "footer";
+        grid-template-rows: 50px auto 1fr auto auto;
         grid-template-columns: 1fr;
         gap: 10px;
+
         background: #ddd url(../images/bg-white-atlas.png) no-repeat center;
         background-size: cover;
         background-attachment: fixed;
     }
-    .main-section > .main, .aside {
+
+    .main-section .main, .aside {
         max-width: 1080px;
-        margin: 0px auto;
-    } 
+        margin: auto;
+    }
 
     .main-section > .aside section {
         display: flex;
         flex-flow: row wrap;
     }
 }
+
 
 @media  screen and (max-width: 1230px) {
     .main-section {
@@ -61,7 +65,7 @@
         "aside"
         "footer";
         grid-template-rows: 50px auto auto auto 1fr;
-        grid-template-columns: 100vw;
+        grid-template-columns: 1fr;
         gap: 10px 10px;
     }
     .main-section > .aside section {

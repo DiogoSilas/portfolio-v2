@@ -49,6 +49,13 @@
 
 
 .main-section > .footer {
-    background-color: #ffe5c4;
     grid-area: footer;
+    text-align: center;
+    background-color: #000;
+}
+
+.main-section > .footer address {
+    color: #fff;
+    font-size: 1.3rem;
+    margin: 15px;
 }
