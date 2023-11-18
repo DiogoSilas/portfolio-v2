@@ -13,6 +13,31 @@
     background-attachment: fixed;
 }
 
+@media screen and (min-width: 1440px) {
+    .main-section {
+        display: grid;
+        grid:
+        "header" 50px
+        "nav-bar" auto
+        "main" auto
+        "aside" auto
+        "footer" auto;
+        grid-template-columns: 1fr;
+        gap: 10px;
+        background: #ddd url(../images/bg-white-atlas.png) no-repeat center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    .main-section > .main, .aside {
+        max-width: 1080px;
+        margin: 0px auto;
+    } 
+
+    .main-section > .aside section {
+        display: flex;
+        flex-flow: row wrap;
+    }
+}
 
 @media  screen and (max-width: 1230px) {
     .main-section {

@@ -21,6 +21,11 @@
     width: 280px;
     height: 280px;
 }
+
+.main .hards-skills img {
+    width: 40px;
+    height: 40px;
+}
 .main-section > .aside {
     /* background-color: #caf6f6; */
     grid-area: aside;
